@@ -1,0 +1,144 @@
+/* 
+author: Your name;
+filename: times.css;
+Date: The Date which you will submit;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Mali');
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+   
+    /*font-family: font stack required for body text */
+}
+h1, h2, h3, h4{
+    font-family:'Mali', cursive, serif;
+    color:hsla(207, 60%, 35%, 1);
+    margin-left: 40rem;
+    
+/*font-family: font stack required for headings */
+}
+p{
+   padding: 0 10%;
+}
+.container{
+   max-width: 1500px;
+    
+}
+.subnav{
+
+    font-weight: bold;
+    background-color:hsla(207, 60%, 35%, 1);
+    padding: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    
+   
+    }
+.subnav a{
+    color:hsla(211, 6%, 50%, 1);
+   font-family: 'Charmonman', cursive, sans-serif;
+}
+.mainnav{
+  
+    background-color: hsla(207, 60%, 35%, 1);
+    padding:1rem;
+    font-size:3rem;
+    display:flex;
+    justify-content:space-around;
+    
+  
+}
+.mainnav a{
+    color:hsla(211, 6%, 50%, 1);
+    font-family: 'Charmonman', cursive, sans-serif;
+}
+.masthead{
+  }
+.times-logo{
+    height:15rem;
+   
+    margin-left: 10rem;
+}
+.masthead h1{
+    text-decoration: underline;
+    font-size:1.5rem;
+  }
+.content{
+    }
+.content .story{
+    
+}
+.story.lead-story{
+    font-size: 1.3rem;
+   
+}
+h1.story-title{
+    
+}
+.story img{
+    padding: 0% 35%;
+    width: 100%;
+}
+.story p{
+   font-family: 'Charmonman', cursive, sans-serif;
+  }
+.story blockquote{
+  font-size: 1.2rem;
+  width:50%;
+  margin:50px auto;
+  font-family: 'Charmonman', cursive, sans-serif;
+  font-style:italic;
+  color: hsla(210, 52%, 96%, 1);
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px;
+  line-height:2;
+  position: relative;
+  background:hsla(207, 60%, 35%, 1);
+  quotes: "\201C""\201D";
+    
+}
+.story blockquote::before{
+  content: open-quote;
+  font-family: 'Charmonman', cursive, sans-serif;
+  content: "\201C";
+  color:hsla(210, 52%, 96%, 1);
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+ 
+}
+.story blockquote::after{
+    content: close-quote;
+    content: "\201D";
+}
+.story p.byline{
+    text-decoration: underline;
+   
+}
+p.byline span.author{
+    color: hsla(207, 60%, 35%, 1);
+   
+}
+p.byline span.pub{
+    display: flex;
+    justify-content: space-between;
+    color: hsla(207, 60%, 35%, 1);;
+}
+.foot{
+    background-color:hsla(207, 60%, 35%, 1);
+}
+.foot p{
+    text-align: center;
+    color:hsla(210, 52%, 96%, 1);
+    
+}
